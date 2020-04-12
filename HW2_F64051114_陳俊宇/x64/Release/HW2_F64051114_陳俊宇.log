@@ -1,6 +1,150 @@
 ﻿  Source.cpp
+Source.cpp(177): warning C4244: '引數': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+E:\Program Files (x86)\Visual Studio\VC\include\xmemory0(737): warning C4244: '引數': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+  E:\Program Files (x86)\Visual Studio\VC\include\xmemory0(857): note: 請參閱所要編譯的函式 樣板 具現化 'void std::allocator<_Ty>::construct<_Objty,int&,int&>(_Objty *,int &,int &)' 之參考
+          with
+          [
+              _Ty=cv::Point2f,
+              _Objty=cv::Point_<float>
+          ]
+  E:\Program Files (x86)\Visual Studio\VC\include\xmemory0(857): note: 請參閱所要編譯的函式 樣板 具現化 'void std::allocator<_Ty>::construct<_Objty,int&,int&>(_Objty *,int &,int &)' 之參考
+          with
+          [
+              _Ty=cv::Point2f,
+              _Objty=cv::Point_<float>
+          ]
+  E:\Program Files (x86)\Visual Studio\VC\include\xmemory0(996): note: 請參閱所要編譯的函式 樣板 具現化 'void std::allocator_traits<_Alloc>::construct<_Ty,int&,int&>(std::allocator<_Ty> &,_Objty *,int &,int &)' 之參考
+          with
+          [
+              _Alloc=std::allocator<cv::Point2f>,
+              _Ty=cv::Point_<float>,
+              _Objty=cv::Point_<float>
+          ]
+  E:\Program Files (x86)\Visual Studio\VC\include\xmemory0(995): note: 請參閱所要編譯的函式 樣板 具現化 'void std::allocator_traits<_Alloc>::construct<_Ty,int&,int&>(std::allocator<_Ty> &,_Objty *,int &,int &)' 之參考
+          with
+          [
+              _Alloc=std::allocator<cv::Point2f>,
+              _Ty=cv::Point_<float>,
+              _Objty=cv::Point_<float>
+          ]
+  E:\Program Files (x86)\Visual Studio\VC\include\vector(930): note: 請參閱所要編譯的函式 樣板 具現化 'void std::_Wrap_alloc<std::allocator<_Ty>>::construct<_Ty,int&,int&>(_Ty *,int &,int &)' 之參考
+          with
+          [
+              _Ty=cv::Point2f
+          ]
+  E:\Program Files (x86)\Visual Studio\VC\include\vector(929): note: 請參閱所要編譯的函式 樣板 具現化 'void std::_Wrap_alloc<std::allocator<_Ty>>::construct<_Ty,int&,int&>(_Ty *,int &,int &)' 之參考
+          with
+          [
+              _Ty=cv::Point2f
+          ]
+  Source.cpp(40): note: 請參閱所要編譯的函式 樣板 具現化 'void std::vector<cv::Point2f,std::allocator<_Ty>>::emplace_back<int&,int&>(int &,int &)' 之參考
+          with
+          [
+              _Ty=cv::Point2f
+          ]
+  Source.cpp(40): note: 請參閱所要編譯的函式 樣板 具現化 'void std::vector<cv::Point2f,std::allocator<_Ty>>::emplace_back<int&,int&>(int &,int &)' 之參考
+          with
+          [
+              _Ty=cv::Point2f
+          ]
+E:\Program Files (x86)\Visual Studio\VC\include\xmemory0(737): warning C4244: '引數': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+  E:\Program Files (x86)\Visual Studio\VC\include\xmemory0(857): note: 請參閱所要編譯的函式 樣板 具現化 'void std::allocator<_Ty>::construct<_Objty,float,float>(_Objty *,float &&,float &&)' 之參考
+          with
+          [
+              _Ty=cv::Point,
+              _Objty=cv::Point_<int>
+          ]
+  E:\Program Files (x86)\Visual Studio\VC\include\xmemory0(857): note: 請參閱所要編譯的函式 樣板 具現化 'void std::allocator<_Ty>::construct<_Objty,float,float>(_Objty *,float &&,float &&)' 之參考
+          with
+          [
+              _Ty=cv::Point,
+              _Objty=cv::Point_<int>
+          ]
+  E:\Program Files (x86)\Visual Studio\VC\include\xmemory0(996): note: 請參閱所要編譯的函式 樣板 具現化 'void std::allocator_traits<_Alloc>::construct<_Ty,float,float>(std::allocator<_Ty> &,_Objty *,float &&,float &&)' 之參考
+          with
+          [
+              _Alloc=std::allocator<cv::Point>,
+              _Ty=cv::Point_<int>,
+              _Objty=cv::Point_<int>
+          ]
+  E:\Program Files (x86)\Visual Studio\VC\include\xmemory0(995): note: 請參閱所要編譯的函式 樣板 具現化 'void std::allocator_traits<_Alloc>::construct<_Ty,float,float>(std::allocator<_Ty> &,_Objty *,float &&,float &&)' 之參考
+          with
+          [
+              _Alloc=std::allocator<cv::Point>,
+              _Ty=cv::Point_<int>,
+              _Objty=cv::Point_<int>
+          ]
+  E:\Program Files (x86)\Visual Studio\VC\include\vector(930): note: 請參閱所要編譯的函式 樣板 具現化 'void std::_Wrap_alloc<std::allocator<_Ty>>::construct<_Ty,float,float>(_Ty *,float &&,float &&)' 之參考
+          with
+          [
+              _Ty=cv::Point
+          ]
+  E:\Program Files (x86)\Visual Studio\VC\include\vector(929): note: 請參閱所要編譯的函式 樣板 具現化 'void std::_Wrap_alloc<std::allocator<_Ty>>::construct<_Ty,float,float>(_Ty *,float &&,float &&)' 之參考
+          with
+          [
+              _Ty=cv::Point
+          ]
+  Source.cpp(74): note: 請參閱所要編譯的函式 樣板 具現化 'void std::vector<cv::Point,std::allocator<_Ty>>::emplace_back<_Tp,_Tp>(_Tp &&,_Tp &&)' 之參考
+          with
+          [
+              _Ty=cv::Point,
+              _Tp=float
+          ]
+  Source.cpp(74): note: 請參閱所要編譯的函式 樣板 具現化 'void std::vector<cv::Point,std::allocator<_Ty>>::emplace_back<_Tp,_Tp>(_Tp &&,_Tp &&)' 之參考
+          with
+          [
+              _Ty=cv::Point,
+              _Tp=float
+          ]
+E:\Program Files (x86)\Visual Studio\VC\include\xmemory0(737): warning C4244: '引數': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+  E:\Program Files (x86)\Visual Studio\VC\include\xmemory0(857): note: 請參閱所要編譯的函式 樣板 具現化 'void std::allocator<_Ty>::construct<_Objty,double&,double&>(_Objty *,double &,double &)' 之參考
+          with
+          [
+              _Ty=cv::Point2f,
+              _Objty=cv::Point_<float>
+          ]
+  E:\Program Files (x86)\Visual Studio\VC\include\xmemory0(857): note: 請參閱所要編譯的函式 樣板 具現化 'void std::allocator<_Ty>::construct<_Objty,double&,double&>(_Objty *,double &,double &)' 之參考
+          with
+          [
+              _Ty=cv::Point2f,
+              _Objty=cv::Point_<float>
+          ]
+  E:\Program Files (x86)\Visual Studio\VC\include\xmemory0(996): note: 請參閱所要編譯的函式 樣板 具現化 'void std::allocator_traits<_Alloc>::construct<_Ty,double&,double&>(std::allocator<_Ty> &,_Objty *,double &,double &)' 之參考
+          with
+          [
+              _Alloc=std::allocator<cv::Point2f>,
+              _Ty=cv::Point_<float>,
+              _Objty=cv::Point_<float>
+          ]
+  E:\Program Files (x86)\Visual Studio\VC\include\xmemory0(995): note: 請參閱所要編譯的函式 樣板 具現化 'void std::allocator_traits<_Alloc>::construct<_Ty,double&,double&>(std::allocator<_Ty> &,_Objty *,double &,double &)' 之參考
+          with
+          [
+              _Alloc=std::allocator<cv::Point2f>,
+              _Ty=cv::Point_<float>,
+              _Objty=cv::Point_<float>
+          ]
+  E:\Program Files (x86)\Visual Studio\VC\include\vector(930): note: 請參閱所要編譯的函式 樣板 具現化 'void std::_Wrap_alloc<std::allocator<_Ty>>::construct<_Ty,double&,double&>(_Ty *,double &,double &)' 之參考
+          with
+          [
+              _Ty=cv::Point2f
+          ]
+  E:\Program Files (x86)\Visual Studio\VC\include\vector(929): note: 請參閱所要編譯的函式 樣板 具現化 'void std::_Wrap_alloc<std::allocator<_Ty>>::construct<_Ty,double&,double&>(_Ty *,double &,double &)' 之參考
+          with
+          [
+              _Ty=cv::Point2f
+          ]
+  Source.cpp(165): note: 請參閱所要編譯的函式 樣板 具現化 'void std::vector<cv::Point2f,std::allocator<_Ty>>::emplace_back<double&,double&>(double &,double &)' 之參考
+          with
+          [
+              _Ty=cv::Point2f
+          ]
+  Source.cpp(165): note: 請參閱所要編譯的函式 樣板 具現化 'void std::vector<cv::Point2f,std::allocator<_Ty>>::emplace_back<double&,double&>(double &,double &)' 之參考
+          with
+          [
+              _Ty=cv::Point2f
+          ]
   正在產生程式碼
-  9 of 14 functions (64.3%) were compiled, the rest were copied from previous compilation.
+  7 of 660 functions ( 1.1%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
     0 functions had inline decision re-evaluated but remain unchanged
   已完成程式碼產生
