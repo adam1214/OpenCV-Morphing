@@ -88,6 +88,7 @@ void morphTriangle(Mat & img1, Mat & img2, Mat & img, vector<Point2f> & t1, vect
 
 	applyAffineTransform(warpImage1, img1Rect, t1Rect, tRect);
 	applyAffineTransform(warpImage2, img2Rect, t2Rect, tRect);
+
 	// Alpha blend rectangular patches
 	Mat imgRect = (1.0 - alpha) * warpImage1 + alpha * warpImage2;
 
