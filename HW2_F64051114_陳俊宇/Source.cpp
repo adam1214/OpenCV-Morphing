@@ -112,8 +112,8 @@ int main()
 
 	Mat img1, img2;
 	vector<Point2f> key_points1, key_points2;
-	read_image("man1.jpg", "points1.txt", img1, key_points1);
-	read_image("man2.jpg", "points2.txt", img2, key_points2);
+	read_image("women.jpg", "women_points.txt", img1, key_points1);
+	read_image("cheetah.jpg", "cheetah_points.txt", img2, key_points2);
 	auto subdiv1 = get_triangulation(img1, key_points1);
 	auto subdiv2 = get_triangulation(img2, key_points2);
 
